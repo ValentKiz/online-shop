@@ -1,0 +1,25 @@
+{
+	"name": "online-shop",
+	"version": "1.0.0",
+	"description": "This is not a complete project. This is just for learning testing JEST",
+	"main": "index.js",
+	"scripts": {
+		"server": "npm run dev --prefix server",
+		"client": "npm start --prefix client",
+		"dev": "concurrently \"npm run server\" \"npm run client\"",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ValentKiz/online-shop.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ValentKiz/online-shop/issues"
+	},
+	"homepage": "https://github.com/ValentKiz/online-shop#readme",
+	"dependencies": {
+		"concurrently": "^8.0.1"
+	}
+}
